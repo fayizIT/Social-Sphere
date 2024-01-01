@@ -63,7 +63,7 @@ export const addRemoveFriends = async (req, res) => {
         );
 
         const formattedFriends = friends.map(
-            ({ _id,firstName, lastName, occupation, location, picturePath}) =>{
+            ({ _id, firstName, lastName, occupation, location, picturePath}) =>{
                 return {_id,firstName, lastName, occupation, location, picturePath};
 
             }
